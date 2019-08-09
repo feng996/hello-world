@@ -1,0 +1,7 @@
+Table
+essn char(18) false true false
+dependent_name char(10) false true false
+sex char(8) false false false
+relationship char(10) false false false
+
+Index
