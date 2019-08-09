@@ -1,0 +1,11 @@
+Table
+name char(10) false false false
+ssn char(18) false true true
+address char(30) false false false
+sex char(8) false false false
+salary float false false false
+superssn char(18) false false false
+dno char(8) false false false
+
+Index
+employee_ssn,employee,ssn

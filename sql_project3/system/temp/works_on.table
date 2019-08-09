@@ -1,0 +1,6 @@
+Table
+essn char(18) false true false
+pno char(8) false true false
+hours int false false false
+
+Index

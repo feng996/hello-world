@@ -1,0 +1,6 @@
+Table
+dname char(30) false false false
+dnumber char(8) false true false
+mgrssn char(18) false false false
+
+Index

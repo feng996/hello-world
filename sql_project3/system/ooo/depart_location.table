@@ -1,0 +1,5 @@
+Table
+dnumber char(8) false true false
+dlocation char(30) false false false
+
+Index

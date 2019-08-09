@@ -1,0 +1,7 @@
+Table
+pname char(30) false false false
+pnumber char(8) false true false
+plocation char(30) false false false
+dnum char(8) false false false
+
+Index
