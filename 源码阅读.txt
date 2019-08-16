@@ -1,0 +1,18 @@
+HashMap {
+	static final int DEFAULT_INITIAL_CAPACITY = 1 << 4;
+	static final int MAXIMUM_CAPACITY = 1 << 30;
+	static final float DEFAULT_LOAD_FACTOR = 0.75f;
+
+	static final int hash(Object key) {
+        int h;
+        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+    }
+
+    int index = hashCode & (length -1)
+
+ 	static class Node<K,V> implements Map.Entry<K,V> {
+ 		public final int hashCode() {
+            return Objects.hashCode(key) ^ Objects.hashCode(value);
+        }
+    }
+}
