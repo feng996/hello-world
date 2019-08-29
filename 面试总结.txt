@@ -51,3 +51,32 @@
 
 	状态：挂
 }
+
+8/17 pdd现场面 {
+	项目
+	大表join
+	实现安全的hashmap
+	有索引(a, b, c)
+	select * from table where a = 30 and b > 20 and c = 3;能否命中
+
+	数据库存储引擎(innodb、mysiam)
+	linux命令，如何查找哪个端口被占用，并杀掉进程
+	高级grep使用
+
+	一面挂
+}
+
+8/18 浦发现场面 {
+	字符串匹配(正序和反序)
+	java同步方式
+	synchronized和lock的区别
+
+	
+}
+
+
+8/21腾讯 {
+	手写lru
+
+	一面挂
+}
